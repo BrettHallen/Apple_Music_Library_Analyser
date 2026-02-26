@@ -12,7 +12,7 @@ Anyway, here is a Python script that will analyse the files in your library and 
 
 ## Requirements
 - Python 3
-- Mutagen library (install with ```pip install mutagen```
+- Mutagen library: install with ```pip install mutagen```
 - You need to set the path to your library in the script before running ... it could be almost anywhere these days so simpler if you just set it yourself!
 
 Example file paths:<br>
