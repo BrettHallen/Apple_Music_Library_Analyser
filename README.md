@@ -1,7 +1,7 @@
-# Apple Music Library Analyser
+# Apple iTunes/Music Library Utilities
 The Apple Music application doesn't show a useful breakdown of your library contents.  They're more interested in pestering you to subscribe and own nuthin'.<br>
 
-## Background
+# Apple iTunes/Music Library Analyser
 My iTunes library contains over 30,000 files and is over 1TB in size.  It was first created around 2002 on my iMac G4 with iTunes and has moved from Mac to Mac over the decades.<br>
 
 Most of my songs have been ripped from CDs I've acquired since 1990 ... the first CD I got was, I think, "5 1/2" by Japanese band [米米CLUB (KOME KOME CLUB)](https://youtu.be/D6QFqQ7Nf3M).<br>
@@ -9,6 +9,8 @@ Most of my songs have been ripped from CDs I've acquired since 1990 ... the firs
 I buy more music online now, mainly from Bandcamp, HD Tracks or Beatport, always in lossless or hi-res formats.  It's nice to have the physical CD but if you can get 48kHz and/or 24-bit/DSD resolution files online then I'll get those.  I've also ripped a bunch of my SACDs (Super Audio CD) as well.<br>
 
 Anyway, here is a Python script that will analyse the files in your library and output a summary.  It can take a while to run as it checks every file: about 13min on my Intel Mac mini (3.2GHz), see example below.<br>
+
+It will also create two CSV-formatted files: one listing every file with its data and file path, and an error file listing those that couldn't be parsed. See the example below for the types of errors encountered.<br>
 
 ## Requirements
 - Python 3
@@ -23,9 +25,11 @@ On an external drive connected to my Mac mini (Intel) that inherited the library
 ```library_path = "/Volumes/Hollie Data/Users/brett/Music/iTunes/iTunes Music/Music" ```<br>
 
 ## Execution
-With you library path set in the script, run the script from wherever with: ```python3 iTunes_Analyser.py```<br>
-A "." will be printed for every 100 files processed so you can see that's working.<br>
-Any errors will be printed and processing continued.
+- With you library path set in the script, run the script from wherever with: ```python3 iTunes_Analyser.py```<br>
+- A "." will be printed for every 100 files processed so you can see that's working.<br>
+- Any errors will be printed and processing continued.<br>
+- ```iTunes_library_contents.csv``` will contain the data extracted for all the files
+- ```iTunes_library_errors.csv``` will contain a list of files that had errors during the scan
 
 ## Example Output
 Here is sample output from a small library on my Macbook Air:
@@ -127,3 +131,11 @@ Processing: /Volumes/Hollie Data/Users/brett/Music/iTunes/iTunes Music/Music
 >> Total size: 1031.31GB (1056062.23MB)
 >> Processing time: 12 min 24 sec
 ```
+## Update history
+- 26/Feb/2026: Initial commit
+- 27/Feb/2026: Added logfile output to help fixing problems: one file listing all files & their data plus an error file
+
+# CD Rips - Songs with "skips" (UNDER DEVELOPMENT)
+CDs are pretty robust as they have error correction, but they can still be damaged causing songs to "skip" when played back.<br>
+
+This Python script is an attempt to scan the 30k+ songs in my library to catch any that I may have missed so that I can look at trying to fix the CD and re-ripping.<br>
