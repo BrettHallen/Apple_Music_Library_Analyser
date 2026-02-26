@@ -6,9 +6,9 @@ My iTunes library contains over 30,000 files and is over 1TB in size.  It was fi
 
 Most of my songs have been ripped from CDs I've bought over the decades ... the first CD I got was, I think, "5 1/2" by Japanese band 米米CLUB (KOME KOME CLUB).<br>
 
-I buy more music online now, from Bandcamp, HD Tracks or another place, always in lossless or hi-res formats.  It's nice to have the physical CD but if you can get 48kHz and/or 24-bit/DSD resolution files online then I'll get those.  I've also ripped a bunch of my SACDs (Super Audio CD) as well.<br>
+I buy more music online now, mainly from Bandcamp, HD Tracks or Beatport, always in lossless or hi-res formats.  It's nice to have the physical CD but if you can get 48kHz and/or 24-bit/DSD resolution files online then I'll get those.  I've also ripped a bunch of my SACDs (Super Audio CD) as well.<br>
 
-Anyway, here is a Python script that will analyse the files in your library and output a summary.  It can take a while to run as it checks every file.<br>
+Anyway, here is a Python script that will analyse the files in your library and output a summary.  It can take a while to run as it checks every file: about 13min on my Intel Mac mini (3.2GHz), see example below.<br>
 
 ## Requirements
 - Python 3
