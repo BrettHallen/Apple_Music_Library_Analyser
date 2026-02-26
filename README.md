@@ -16,7 +16,9 @@ Anyway, here is a Python script that will analyse the files in your library and 
 - You need to set the path to your library in the script before running ... it could be almost anywhere these days so simpler if you just set it yourself!
 
 ## Execution
-With you library path set in the script, run the script from wherever with: ```python3 iTunes_Analyser.py```
+With you library path set in the script, run the script from wherever with: ```python3 iTunes_Analyser.py```<br>
+A "." will be printed for every 100 files processed so you can see that's working.<br>
+Any errors will be printed and processing continued.
 
 ## Example Output
 Here is sample output from a small library on my Macbook Air:
