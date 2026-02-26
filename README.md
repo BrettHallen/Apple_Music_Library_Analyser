@@ -4,7 +4,7 @@ The Apple Music application doesn't show a useful breakdown of your library cont
 ## Background
 My iTunes library contains over 30,000 files and is over 1TB in size.  It was first created around 2002 on my iMac G4 with iTunes and has moved from Mac to Mac over the decades.<br>
 
-Most of my songs have been ripped from CDs I've bought over the decades ... the first CD I got was, I think, "5 1/2" by Japanese band 米米CLUB (KOME KOME CLUB).<br>
+Most of my songs have been ripped from CDs I've bought over the decades ... the first CD I got was, I think, "5 1/2" by Japanese band [米米CLUB (KOME KOME CLUB)](https://youtu.be/D6QFqQ7Nf3M).<br>
 
 I buy more music online now, mainly from Bandcamp, HD Tracks or Beatport, always in lossless or hi-res formats.  It's nice to have the physical CD but if you can get 48kHz and/or 24-bit/DSD resolution files online then I'll get those.  I've also ripped a bunch of my SACDs (Super Audio CD) as well.<br>
 
