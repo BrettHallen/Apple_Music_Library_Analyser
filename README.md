@@ -4,7 +4,7 @@ The Apple Music application doesn't show a useful breakdown of your library cont
 ## Background
 My iTunes library contains over 30,000 files and is over 1TB in size.  It was first created around 2002 on my iMac G4 with iTunes and has moved from Mac to Mac over the decades.<br>
 
-Most of my songs have been ripped from CDs I've bought over the decades ... the first CD I got was, I think, "5 1/2" by Japanese band [米米CLUB (KOME KOME CLUB)](https://youtu.be/D6QFqQ7Nf3M).<br>
+Most of my songs have been ripped from CDs I've acquired since 1990 ... the first CD I got was, I think, "5 1/2" by Japanese band [米米CLUB (KOME KOME CLUB)](https://youtu.be/D6QFqQ7Nf3M).<br>
 
 I buy more music online now, mainly from Bandcamp, HD Tracks or Beatport, always in lossless or hi-res formats.  It's nice to have the physical CD but if you can get 48kHz and/or 24-bit/DSD resolution files online then I'll get those.  I've also ripped a bunch of my SACDs (Super Audio CD) as well.<br>
 
@@ -15,10 +15,11 @@ Anyway, here is a Python script that will analyse the files in your library and 
 - Mutagen library: install with ```pip install mutagen```
 - You need to set the path to your library in the script before running ... it could be almost anywhere these days so simpler if you just set it yourself!
 
-Example file paths:<br>
-On my Mac (M2) that came with Music application:<br>
+### Example file paths
+On my Macbook Air (M2) that came with Music application:<br>
 ```library_path = "/Users/brett/Music/Music/Media.localized/Music" ```<br>
-On my Mac (Intel) that inherited the library I first created on original iMac G4 in 2002-ish:<br>
+
+On an external drive connected to my Mac mini (Intel) that inherited the library I first created on my original iMac G4 in 2002-ish:<br>
 ```library_path = "/Volumes/Hollie Data/Users/brett/Music/iTunes/iTunes Music/Music" ```<br>
 
 ## Execution
